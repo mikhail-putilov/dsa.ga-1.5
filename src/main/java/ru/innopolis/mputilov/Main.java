@@ -5,6 +5,7 @@ package ru.innopolis.mputilov;
  */
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Simulation started, please be patient...");
         Simulation simulation = new Simulation();
         simulation.run();
         simulation.printResult(System.out);
